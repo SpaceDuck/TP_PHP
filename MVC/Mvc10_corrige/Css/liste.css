@@ -1,0 +1,33 @@
+.tableau 
+{
+margin: 20px auto;
+}
+
+.tableau th 
+{
+background-color: #a8c9c9;
+color: #000;
+height: 18px;
+font-size: 15px;
+}
+
+.tableau th,td 
+{
+border: 1px solid black;
+padding: 2px 5px;
+}
+
+.tableau tr:nth-child(even) 
+{
+background: #d0e9e9;
+}
+
+.tableau tr:nth-child(odd) 
+{
+background: #b7dadb;
+}
+
+.tableau tr:hover 
+{
+background-color: #adc2a7;
+}
