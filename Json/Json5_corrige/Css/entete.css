@@ -1,0 +1,46 @@
+#entete 
+{
+width: 70em;
+margin: 1em auto;
+background: yellow;
+text-align: center;
+}
+
+#entete li 
+{
+display: inline-block;
+margin: 0 5em;
+}
+
+#entete button
+{
+background-color: #fff;
+height: 5em;
+width: 7em;
+font-weight: bold;
+font-size: 1.5em;
+border-radius: 15px;
+box-shadow: 5px 5px 2px #aaa;
+}
+
+#entete button:hover
+{
+box-shadow: -5px -5px 2px  #aaa;
+}
+
+#entete button#button_select:hover
+{
+background: -moz-repeating-linear-gradient(#f00 20px, #ff0 40px);
+}
+
+#entete button#button_input:hover
+{
+background: -moz-repeating-radial-gradient(#f00, #ff0 20px, #f00 40px);
+}
+
+#entete button#button_radio:hover
+{
+background: -moz-repeating-radial-gradient(ellipse, #f00, #ff0 20px, #f00 40px);
+}
+
+

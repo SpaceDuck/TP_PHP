@@ -1,0 +1,19 @@
+  <form action="#" method="post">
+   <fieldset>
+    <p>
+     <label for="toujours">Toujours</label>
+     <input id="toujours" type="radio" name="RADIO" value="Toujours" onclick="changeContent('reponse', '../Php/json.php', 'EX=rep_radio&RADIO='+this.value)" />
+    </p>
+    <p>
+     <label for="jamais">Jamais</label>
+     <input id="jamais" type="radio" name="RADIO" value="Jamais" onclick="changeContent('reponse', '../Php/json.php', 'EX=rep_radio&RADIO='+this.value)" />
+    </p>
+    <p>
+     <label for="aucun">Aucun</label>
+     <input id="aucun" type="radio" name="RADIO" value="Aucun" onclick="changeContent('reponse', '../Php/json.php', 'EX=rep_radio&RADIO='+this.value)" />
+    </p>
+   </fieldset>
+  </form>
+  <br />
+  <p id="reponse"></p>
+  

@@ -1,0 +1,44 @@
+#entete 
+{
+width: 70em;
+margin: 1em auto;
+background: yellow;
+text-align: center;
+}
+
+#entete li 
+{
+display: inline-block;
+margin: 0 5em;
+}
+
+#entete button
+{
+background-color: #fff;
+height: 5em;
+width: 7em;
+font-weight: bold;
+font-size: 1.5em;
+border-radius: 15px;
+box-shadow: 5px 5px 2px #aaa;
+}
+
+#entete button:hover
+{
+box-shadow: -5px -5px 2px  #aaa;
+}
+
+#entete button#button_select:hover
+{
+background: linear-gradient(90deg, #f00, #ff0);
+}
+
+#entete button#button_input:hover
+{
+background: linear-gradient(45deg, #f00, #ff0);
+}
+
+#entete button#button_radio:hover
+{
+background: linear-gradient(120deg, #f00, #ff0);
+}
